@@ -9,6 +9,6 @@
 
 ![image](https://user-images.githubusercontent.com/94203956/200602212-2a9b7f99-765b-4722-85b3-3903255b4683.png)🖥️
 
-## ⚠️ Note: The words "web", "PCs", "EVs", "IA" were not translated because it would look weird.
+## ⚠️ Note: The words "web", "PCs", "EVs", "IA" and "home" were not translated because it would look weird.
 ## for more challenges go to https://www.frontendmentor.io/home
 ## And soon there will be more challenges completed in Brazilian Portuguese.💪
