@@ -1,0 +1,24 @@
+.btn {
+  &,
+  &:link,
+  &:visited {
+    display: inline-block;
+    padding: 1.5rem 3.5rem;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: 1.5rem;
+    font-weight: 700;
+    letter-spacing: 2.5px;
+    cursor: pointer;
+    transition: all 0.3s;
+  }
+
+  &:hover {
+    background-color: $color-darker-grayish-blue;
+  }
+
+  &--red {
+    background-color: $color-primary-red;
+    color: $color-white;
+  }
+}

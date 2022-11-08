@@ -1,0 +1,20 @@
+$color-primary-orange: #e9ab53;
+$color-primary-red: #f15e50;
+$color-white: #fffdfa;
+$color-grayish-blue: #c5c6ce;
+$color-dark-grayish-blue: #5d5f79;
+$color-darker-grayish-blue: #00001a;
+
+@mixin respond($breakpoint) {
+  @if $breakpoint == phone {
+    @media only screen and (max-width: 37.5em) {
+      @content;
+    } 
+  }
+
+  @if $breakpoint == tab-port {
+    @media only screen and (max-width: 56.25em) {
+      @content;
+    } 
+  }
+}

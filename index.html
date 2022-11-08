@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" type="image/png" sizes="32x32" href="./img/favicon.ico">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/styles.css">
+  <title>Frontend Mentor | Página inicial de notícias</title>
+</head>
+<body>
+  <div class="overlay hidden"></div>
+  <main class="main">
+    <header class="header">
+      <img src="img/logo.svg" alt="logo">
+
+      <div class="menu__toggle-container">
+        <input type="checkbox" class="menu__checkbox" id="menu-toggle">
+        <label for="menu-toggle" class="menu__button">
+          <span class="menu__icon"></span>
+        </label>
+      </div>
+
+      <nav class="nav hidden">
+        <ul class="nav__list">
+          <li class="nav__item"><a href="#" class="nav__link">Home</a></li>
+          <li class="nav__item"><a href="#" class="nav__link">Novo</a></li>
+          <li class="nav__item"><a href="#" class="nav__link">Popular</a></li>
+          <li class="nav__item"><a href="#" class="nav__link">Tendendo</a></li>
+          <li class="nav__item"><a href="#" class="nav__link">Categorias</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <section class="section-intro">
+      <div class="intro">
+        <picture class="intro__img-container">
+          <source media="(min-width:600px)" srcset="img/image-web-3-desktop.jpg">
+          <img src="img/image-web-3-mobile.jpg" alt="web-3" class="intro__img">
+        </picture>
+
+        <div class="intro__desc-container">
+          <h1 class="heading--primary">O futuro brilhante da Web 3.0?</h1>
+          <div class="intro__desc">
+            <p class="paragraph">Mergulhamos na próxima evolução da web que afirma colocar o poder do
+              plataformas
+              de volta para as mãos do povo. Mas está realmente cumprindo suas promessas?</p>
+            <a href="#" class="btn btn--red">Leia Mais</a>
+          </div>
+        </div>
+      </div>
+
+      <aside class="new">
+        <h2 class="heading--secondary heading--orange">Novo</h2>
+        <div class="new_news-container">
+          <div class="new__news">
+            <a href="#" class="heading--tertiary heading--white">Hidrogênio VS Carros Elétricos</a>
+            <p class="paragraph paragraph--white">Os carros movidos a hidrogênio alcançarão os EVs?</p>
+          </div>
+
+          <div class="new__news">
+            <a href="#" class="heading--tertiary heading--white">As desvantagens da arte da IA</a>
+            <p class="paragraph paragraph--white">Quais são os possíveis efeitos adversos da imagem de IA sob demanda
+              geração?
+            </p>
+          </div>
+
+          <div class="new__news">
+            <a href="#" class="heading--tertiary heading--white">O financiamento de capital de risco está secando?</a>
+            <p class="paragraph paragraph--white">O financiamento privado por empresas de capital de risco caiu 50% em relação ao ano anterior. Damos uma olhada no que
+              este
+              significa.</p>
+          </div>
+        </div>
+      </aside>
+    </section>
+
+    <section class="section-article">
+
+      <div class="article-container">
+        <img src="img/image-retro-pcs.jpg" alt="retro pcs" class="article__thumbnail">
+
+        <div class="article__desc">
+          <span class="article__number">01</span>
+          <a href="#" class="heading--tertiary heading--black">Revivendo o PC retrô</a>
+          <p class="paragraph">O que acontece quando PCs antigos recebem atualizações modernas?
+          </p>
+        </div>
+      </div>
+
+      <div class="article-container">
+        <img src="img/image-top-laptops.jpg" alt="top laptops" class="article__thumbnail">
+
+        <div class="article__desc">
+          <span class="article__number">02</span>
+          <a href="#" class="heading--tertiary heading--black">Os 10 melhores laptops de 2022</a>
+          <p class="paragraph">Nossas melhores escolhas para várias necessidades e orçamentos.</p>
+        </div>
+      </div>
+
+      <div class="article-container">
+        <img src="img/image-gaming-growth.jpg" alt="gaming controller" class="article__thumbnail">
+
+        <div class="article__desc">
+          <span class="article__number">03</span>
+          <a href="#" class="heading--tertiary heading--black">O crescimento dos jogos</a>
+          <p class="paragraph">Como a pandemia despertou novas oportunidades.</p>
+        </div>
+      </div>
+    </section>
+
+  </main>
+  
+  <script defer src="js/script.js"></script>
+</body>
+</html>
